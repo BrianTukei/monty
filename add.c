@@ -4,7 +4,7 @@
  * @head: stack head
  * @counter: line_number
  * Return: no return
- */
+*/
 void f_add(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
@@ -30,3 +30,4 @@ void f_add(stack_t **head, unsigned int counter)
 	*head = h->next;
 	free(h);
 }
+
